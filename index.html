@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Added Link for the FAQs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- End -->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">TitoDev</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Danny Sulit</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+<!-- PROFILE SECTION -->
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/pic1.jpg" alt="Danny Sulit profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Danny Sulit</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/UPDATED RESUME - DANNY A. SULIT.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/danny-sulit-42ba48235'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/DANDANDALANDAN'"
+          />
+        </div>
+      </div>
+    </section>
+
+<!-- ABOUT SECTION -->
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/pic2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors Degree in Computer Engineering<br />Data Science Pathway<br />Teacher in Secondary Education</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! I'm a passionate individual with a diverse background in information systems analysis and a strong foundation in computer engineering. My journey began at the Philippine Science High School - Zamboanga Peninsula Region Campus, where I honed my skills as an Information Systems Analyst I and II within a National Government Agency setting. Eager to expand my expertise, I pursued a Bachelor's degree in Computer Engineering, which equipped me with a comprehensive understanding of system architecture and programming languages. Complementing this, I embarked on a transformative Data Science pathway at SPARTA PH and DAP, where I gained insights into advanced analytics and machine learning. Additionally, my experience as a mathematics teacher in secondary education underscores my commitment to education and mentoring. Now, I'm transitioning towards becoming a front-end web developer, driven by my passion for creating intuitive user interfaces and enhancing digital experiences. With a blend of technical proficiency and a dedication to lifelong learning, I'm poised to make meaningful contributions in the dynamic realm of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+<!-- EXPERIENCE SECTION -->
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+<!-- PROJECTS SECTION -->
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p0.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Welcome Tarpaulin</h2>
+            <div class="btn-container">
+              <a href="./assets/p0.jpg">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                View
+              </button></a>
+              <a href="./assets/p0.jpg" download="img_1"><button
+                class="btn btn-color-2 project-btn"
+              >
+                Download
+              </button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Flag Ceremony Background</h2>
+            <div class="btn-container">
+              <a href="./assets/p2.jpg">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                View
+              </button></a>
+              <a href="./assets/p2.jpg" download="img_2"><button
+                class="btn btn-color-2 project-btn"
+              >
+                Download
+              </button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Birthday Social Media Poster</h2>
+            <div class="btn-container">
+              <a href="./assets/p3.jpg">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                View
+              </button></a>
+              <a href="./assets/p3.jpg" download="img_3"><button
+                class="btn btn-color-2 project-btn"
+              >
+                Download
+              </button></a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p7.jpg"
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Programs & Activities Poster</h2>
+            <div class="btn-container">
+              <a href="./assets/p7.jpg">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                View
+              </button></a>
+              <a href="./assets/p7.jpg" download="img_4"><button
+                class="btn btn-color-2 project-btn"
+              >
+                Download
+              </button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+<!-- CONTACT SECTION -->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">sulitdanny1995@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/danny-sulit-42ba48235">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+<!-- FOOTER SECTION -->
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Danny Sulit. All Rights Reserved.</p>
+    </footer>
+
+    <section id="test_questions">
+      <h1 id="test_questions_title">Test Questions</h1>
+      <div class="faq-container">
+        <div class="faq active">
+          <h3 class="faq-title">
+            What is your study and/or work experience involving digital media?
+          </h3>
+
+          <p class="faq-text">
+            My study and work experience in digital media spans several years, encompassing roles such as content creation, social media management, and web development. I have a Bachelor's degree in Computer Science with a focus on web technologies, and I've worked on numerous projects where I've designed and developed digital media, created multimedia content, and implemented digital marketing strategies. One example from my work is maintaining the website, where I applied responsive design principles and integrated social media feeds to enhance user engagement and accessibility.
+          </p>
+
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Considering the existing web design and development standards, evaluate the DOE's website in terms of its usability and propose revisions to its design (layout) and functionalities to make it more user-friendly. Cite the standard/s you used in your evaluation.
+          </h3>
+          <p class="faq-text">
+            Evaluating the DOE's website in terms of usability, I would use established web design standards such as the Web Content Accessibility Guidelines (WCAG) and Nielsen's usability heuristics. Based on these standards, I would propose revisions to the website's layout to improve navigation and readability, ensuring that information is organized logically and presented clearly. Additionally, I would suggest implementing features such as a search function, breadcrumb navigation, and clear calls to action to enhance user experience. Furthermore, integrating responsive design techniques to ensure the website functions effectively across various devices would be essential. By adhering to these standards and making these revisions, the DOE's website can become more user-friendly and accessible to a wider audience.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
